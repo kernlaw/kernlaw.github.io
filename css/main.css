@@ -1,0 +1,40 @@
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+	background-color: #9CC4E4;
+}
+
+.main {
+	background-color: #fff;
+	padding: 5px 15px 5px 15px;
+}
+
+.header {
+	color: white;
+	background-color: #1B325F;
+}
+
+.contact-form {
+
+}
+
+.divider-50-50 .divider--left {
+    width: 50% !important;
+}
+.divider-50-50 .divider--right {
+    float: right;
+    width: 50% !important;
+}
+.divider-75-25 .divider--left {
+    width: 75%;
+}
+.divider-75-25 .divider--right {
+    float: right;
+    width: 25%;
+}
+
+.clearfix {
+	clear: both;
+}
