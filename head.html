@@ -7,7 +7,14 @@
         <link rel="icon" 
               type="image/png" 
               href="favicon.png"></link>
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="jquery.cycle.all.js"></script>
+        <script src="js/lib/jquery-1.11.1.min.js"></script>
+        <script src="js/lib/jquery.cycle.all.js"></script>
+        <script>
+            // Main Scripts
+            $('.cycling-images').cycle({
+                fx:     'scrollDown', 
+                timeout: 10000, 
+            });
+        </script>
     </head>
 </html>
