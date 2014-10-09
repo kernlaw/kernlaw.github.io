@@ -38,3 +38,7 @@ body {
 .clearfix {
 	clear: both;
 }
+
+ul {
+	padding: 10px;
+}
